@@ -2,4 +2,11 @@ This interpreter was written by Adam Michael and Dan Hanson in the spring of 201
 
 This interpreter is only compatible with Petite Chez Scheme. It will not work with Racket.
 
+To start the interpreter, open an interpreter and enter the following:
+
+(load "main.ss")
+(repl)
+
+This will open a new window, the scheme interpreter.
+
 I am most proud of this interpreter for the extensive use of Y and Y* combinators in the parsing of letrec expressions.
