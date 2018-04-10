@@ -5,7 +5,7 @@ This interpreter is only compatible with Petite Chez Scheme. It will not work wi
 To start the interpreter, open an interpreter and enter the following:
 
 (load "main.ss")
-(repl)
+(rep)
 
 This will open a new window, the scheme interpreter.
 
